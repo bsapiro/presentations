@@ -5,10 +5,12 @@ G.Tool
 
 # ![](img/gtool_small.png)
 
-### An opensource framework for creating GRC tools (:battery::battery: included) 
-###### ![](img/github.png) [/bsapiro](https://github.com/bsapiro)
-###### ![](img/twitter.png) [@ironfog](https://twitter.com/ironfog)
-###### ![](img/linkedin.png) [sapiro](https://ca.linkedin.com/in/sapiro)
+### An opensource framework for creating GRC tools </br> (:battery::battery: included) 
+</br>
+
+![](img/github.png) [/bsapiro](https://github.com/bsapiro)
+![](img/twitter.png) [@ironfog](https://twitter.com/ironfog)
+![](img/linkedin.png) [sapiro](https://ca.linkedin.com/in/sapiro)
 
 ---
 Thank you to my wonderful wife for handling everything else while I focused on G.Tool for the last four months. She's been a true partner through this journey. :heart:
@@ -131,6 +133,7 @@ yes, but I'm bad at GUI design (and I hate using a mouse)
 * Accessible to non-developers and non-system admins
 * Configuration and data entry using a simple text editor
 * Works on any desktop operating system (no infrastructure)
+* Supports collaborative editing
 * Benefits from common tools in your environment
 * Composable (put stuff together out of defined parts)
 * Data structures work with existing operating system tools
@@ -144,22 +147,34 @@ yes, but I'm bad at GUI design (and I hate using a mouse)
 * runs the tools created with framework
 
 ---
-#### G.Tool workflow
+#### G.Tool folder structure
+![](img/gtool_folder_structure.png)
+
+---
+#### G.Tool processing workflow
 
 ![](img/gtool_workflow.png)
 <!-- read the configuration file, load plugins (global and project), Load data structures (/classes) load data aggregators /aggregates -->
 
 ---
-_Note:_ *Release One* of G.Tool focuses on achieving parity with at least Excel (the defacto standard for GRC). 
+_Note:_ *Release 1* of G.Tool focuses on achieving parity with at least Excel (the defacto standard for GRC). 
+
+---
+<center>
+Say hello to G.Tool
+</center>
+
+---
+![](img/hello_gtool.png)
 
 ---
 # Use Case #1 - Risk Register (excel)
 ![](img/riskregister_excel.png)
 
 ---
-# But Word and Excel have change tracking!
+## But Word and Excel have change tracking!
 
-... yeah, but's it broken:
+... yeah, but's it broken
 * You can turn it off
 * It works slightly differently across versions
 * It doesn't allow you to see just a revision specific set of changes
@@ -175,6 +190,7 @@ show off git usage
 
 ---
 # Use Case #3 - Vulnerability Remediation
+![](img/vulnremediation_excel.png)
 
 ---
 # Use Case #4 - Pipeline integration
