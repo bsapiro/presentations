@@ -181,16 +181,26 @@ Say hello to G.Tool
 * Sometimes it can't handle large volumes of changes
 
 ---
-# Use Case #1 - Risk Register (G.Tool)
+# Use Case #1 - Risk Register
+show Math, Choice, Enum
 show off git usage
 
 ---
-# Use Case #2 - Attack Tree (Visio)
+# Use Case #2 - Attack Tree
 <center><img src="img/attacktree_visio.png"></center>
+
+---
+# Use Case #2 - Attack Tree
+demonstrate attacktree plugin
 
 ---
 # Use Case #3 - Vulnerability Remediation
 ![](img/vulnremediation_excel.png)
+
+---
+# Use Case #3 - Vulnerability Remediation
+show slicer, nodename, num (with range), Date
+
 
 ---
 # Use Case #4 - Pipeline integration
