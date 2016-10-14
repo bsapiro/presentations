@@ -146,7 +146,8 @@ yes, but I'm bad at GUI design (and I hate using a mouse)
 ---
 #### G.Tool workflow
 
-insert image here
+![](img/gtool_workflow.png)
+<!-- read the configuration file, load plugins (global and project), Load data structures (/classes) load data aggregators /aggregates -->
 
 ---
 _Note:_ *Release One* of G.Tool focuses on achieving parity with at least Excel (the defacto standard for GRC). 
