@@ -125,7 +125,7 @@ yes, but I'm bad at GUI design (and I hate using a mouse)
 ---
 <center>
 <H1>Overview of G.Tool</H1>
-<H2>This will all be covered in docs (promise)</H2>
+<H6>This will all be covered in docs (promise)</H6>
 </center>
  
 ---
@@ -204,11 +204,14 @@ show slicer, nodename, num (with range), Date
 
 
 ---
-# Use Case #4 - Pipeline integration
+# Use Case #4 - Continuous Compliance
 ###### (concept only at this time)
 
-* chef
-* CI
+![](img/gtool_integration2.png)
+
+---
+# CI Tools provide dashboards
+![](img/builds.png)
 
 ---
 # The roadmap
@@ -224,7 +227,7 @@ show slicer, nodename, num (with range), Date
 ---
 ## I need your help please:
 ###### (and my wife has been understanding over the past four months)
-* Users to start working with G.Tool so that it can improved through feedback
+* Users to start working with G.Tool so that it can be improved through feedback
 * People to identify use cases
 * Contributors to the plugin library and the core code
 * DevOps type folk to help with integrations
@@ -233,7 +236,7 @@ show slicer, nodename, num (with range), Date
 ## Getting started
 1) Install Python 3.5+
 2) (Advanced) create a python virtual environment
-3) Install gtool: ```easy_install gtoolframework```
+3) Install G.Tool: ```easy_install gtoolframework```
 4) Make a new gtool project: ```gtool create <foldername>```
 5) (Optional) install git and ```git init```
 6) Edit files ```gtool.cfg```, ```\classes\``` and ```\data\``` with a text editor of your choice
