@@ -179,6 +179,7 @@ Say hello to G.Tool
 * It works slightly differently across versions
 * It doesn't allow you to see just a revision specific set of changes
 * Sometimes it can't handle large volumes of changes
+* Undoing bad changes is manual
 
 ---
 # Use Case #1 - Risk Register
