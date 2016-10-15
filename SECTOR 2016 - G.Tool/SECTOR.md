@@ -1,11 +1,10 @@
 <!-- $theme: default -->
 
-G.Tool
-===
+# Introducing G.Tool 
 
 # ![](img/gtool_small.png)
 
-### An opensource framework for creating GRC tools </br> (:battery::battery: included) 
+### An open source framework for creating GRC tools </br> (:battery::battery: included)
 </br>
 
 ![](img/github.png) [/bsapiro](https://github.com/bsapiro)
@@ -13,11 +12,8 @@ G.Tool
 ![](img/linkedin.png) [sapiro](https://ca.linkedin.com/in/sapiro)
 
 ---
-Thank you to my wonderful wife for handling everything else while I focused on G.Tool for the last four months. She's been a true partner through this journey. :heart:
-
----
 <!-- page_number: true -->
-<!-- footer: CC BY-SA 4.0 -->
+<!-- footer: G.Tool | SECTOR 2016 | CC BY-SA 4.0 -->
 # Outline
 - Backstory
 - Overview
@@ -60,9 +56,9 @@ During my employer's first ever SOC2 audit my team was managing evidence via Exc
 
 ---
 # So I did something (stupid)...
-... I built my own purpose specific GRC tool
+... I built my own purpose specific GRC tool.
 
-It was called SOC2Tool (our marketing department was busy that day)
+It was called **SOC2Tool** (our marketing department was busy that day)
 
 ---
 # SOC2TOOL
@@ -74,11 +70,26 @@ It was called SOC2Tool (our marketing department was busy that day)
 * Used YAML (people are not good at YAML) :disappointed:
 
 ---
-# SOC2TOOL Workflow
-!insert pic
+blurry cam for the next few slides
 
 ---
-:thought_balloon: but it got me thinking... 
+# SOC2TOOL Workflow #1
+![](img/soc2tool_yaml.png)
+
+---
+# SOC2TOOL Workflow #2
+![](img/soc2tool_git.png)
+
+---
+# SOC2TOOL Workflow #3
+![](img/soc2tool_cli.png)
+
+---
+# SOC2TOOL Workflow #4
+![](img/soc2tool_output.png)
+
+---
+it worked (barely) but it got me thinking :thought_balloon: 
 
 ---
 # General purpose GRC tools are...
@@ -205,7 +216,6 @@ show slicer, nodename, num (with range), Date
 
 ---
 # Use Case #4 - Continuous Compliance
-###### (concept only at this time)
 
 ![](img/gtool_integration2.png)
 
@@ -225,7 +235,7 @@ show slicer, nodename, num (with range), Date
 ... plus bugfixes and improvements on existing code
 
 ---
-## I need your help please:
+# I need your help please:
 ###### (and my wife has been understanding over the past four months)
 * Users to start working with G.Tool so that it can be improved through feedback
 * People to identify use cases
@@ -233,7 +243,7 @@ show slicer, nodename, num (with range), Date
 * DevOps type folk to help with integrations
 
 ---
-## Getting started
+# Getting started
 1) Install Python 3.5+
 2) (Advanced) create a python virtual environment
 3) Install G.Tool: ```easy_install gtoolframework```
@@ -252,7 +262,11 @@ This presentation was made using a text only tool called <a href=https://github.
 </center>
 
 ---
+Thank you to my wonderful wife for handling everything else while I focused on G.Tool for the last four months. She's been a true partner through this journey. :heart:
+
+---
 ## Download G.Tool today!
+![](img/gtool_small.png)
 
 ### https://github.com/gtoolframework/
 
