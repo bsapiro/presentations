@@ -1,0 +1,10 @@
+RISK::
+*file = risk
+*output = @Ref || @Description || @Impact || @Likelihood || @Risk|| @Remediation || @RemediationStatus
+@Ref:: single: Number
+@Description:: single: String
+@Impact:: single: String
+@Likelihood:: single: String
+@Risk:: single: String
+@Remediation:: single: String
+@RemediationStatus:: single: String
