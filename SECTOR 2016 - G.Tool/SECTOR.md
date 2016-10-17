@@ -246,7 +246,7 @@ show slicer, nodename, num (with range), Date
 # Getting started
 1) Install Python 3.5+
 2) (Advanced) create a python virtual environment
-3) Install G.Tool: ```easy_install gtoolframework```
+3) Install G.Tool: ```pip install gtool```
 4) Make a new gtool project: ```gtool create <foldername>```
 5) (Optional) install git and ```git init```
 6) Edit files ```gtool.cfg```, ```\classes\``` and ```\data\``` with a text editor of your choice
