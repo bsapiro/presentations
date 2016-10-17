@@ -1,7 +1,7 @@
 @Ref: 3
 @Description: Zion may find a way to destroy the Matrix from the outside
 @Impact: H
-@Likelihood: Moderate
+@Likelihood: M
 @Risk: H
 @Remediation: Find Zion and destroy it (again)
 @RemediationStatus: Open
