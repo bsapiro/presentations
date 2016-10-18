@@ -257,6 +257,7 @@ demonstrate attacktree plugin
 * Greater empathy for developers
 * MVP is king
 * Should have started way earlier
+* Incremental changes are imperative
 * MOAR Testing
 
 ---
