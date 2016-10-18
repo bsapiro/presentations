@@ -168,7 +168,7 @@ yes, but I'm bad at GUI design (and I hate using a mouse)
 <!-- read the configuration file, load plugins (global and project), Load data structures (/classes) load data aggregators /aggregates -->
 
 ---
-_Note:_ *Release 1* of G.Tool focuses on achieving parity with at least Excel (the defacto standard for GRC). 
+_Note:_ *Release 1* of G.Tool was built to at least achieve parity with at least Excel (the defacto standard for GRC) but it is far more capable. 
 
 ---
 <center>
@@ -179,8 +179,12 @@ Say hello to G.Tool
 ![](img/hello_gtool.png)
 
 ---
-# Use Case #1 - Risk Register (excel)
+# Use Case #1 - Risk Register
 ![](img/riskregister_excel.png)
+
+---
+# Use Case #1 - Risk Register
+G.Tool Demo
 
 ---
 ## But Word and Excel have change tracking!
@@ -191,11 +195,6 @@ Say hello to G.Tool
 * It doesn't allow you to see just a revision specific set of changes
 * Sometimes it can't handle large volumes of changes
 * Undoing bad changes is manual
-
----
-# Use Case #1 - Risk Register
-show Math, Choice, Enum
-show off git usage
 
 ---
 # Use Case #2 - Attack Tree
