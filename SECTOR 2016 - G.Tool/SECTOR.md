@@ -197,21 +197,20 @@ G.Tool Demo
 * Undoing bad changes is manual
 
 ---
-# Use Case #2 - Attack Tree
-<center><img src="img/attacktree_visio.png"></center>
-
----
-# Use Case #2 - Attack Tree
-demonstrate attacktree plugin
-
----
-# Use Case #3 - Vulnerability Remediation
+# Use Case #2 - Vulnerability Remediation
 ![](img/vulnremediation_excel.png)
 
 ---
-# Use Case #3 - Vulnerability Remediation
+# Use Case #2 - Vulnerability Remediation
 show slicer, nodename, num (with range), Date
 
+---
+# Use Case #3 - Attack Tree
+<center><img src="img/attacktree_visio.png"></center>
+
+---
+# Use Case #3 - Attack Tree
+demonstrate attacktree plugin
 
 ---
 # Use Case #4 - Continuous Compliance
@@ -251,6 +250,14 @@ show slicer, nodename, num (with range), Date
 6) Edit files ```gtool.cfg```, ```\classes\``` and ```\data\``` with a text editor of your choice
 7) (Optional) ```git add .``` and ```git commit -m "my first gtool project"```
 8) Run G.Tool ```gtool process --scheme <schemename> --output <outfile> <projectfolder>```
+
+---
+# Observations along the way
+* Modern software development is complex (regression testing, build pipelines, deployment packaging etc...)
+* Greater empathy for developers
+* MVP is king
+* Should have started way earlier
+* MOAR Testing
 
 ---
 <center>
