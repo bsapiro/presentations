@@ -197,20 +197,33 @@ G.Tool Demo
 * Undoing bad changes is manual
 
 ---
-# Use Case #2 - Vulnerability Remediation
-![](img/vulnremediation_excel.png)
-
----
-# Use Case #2 - Vulnerability Remediation
-show slicer, nodename, num (with range), Date
-
----
-# Use Case #3 - Attack Tree
+# Use Case #2 - Attack Tree
 <center><img src="img/attacktree_visio.png"></center>
 
 ---
-# Use Case #3 - Attack Tree
+# Use Case #2 - Attack Tree
 demonstrate attacktree plugin
+
+---
+# Use Case #3 - Vulnerability Remediation
+![](img/vulnremediation_excel.png)
+
+---
+# Use Case #3 - Vulnerability Remediation
+G.Tool Demo
+
+---
+# A word on outputs
+Grid Outputs:
+* Excel
+* CSV
+* Table
+
+Tree Outputs:
+* JSON
+* YAML
+* Networkx
+* Graphviz
 
 ---
 # Use Case #4 - Continuous Compliance
@@ -220,6 +233,7 @@ demonstrate attacktree plugin
 ---
 # CI Tools provide dashboards
 ![](img/builds.png)
+
 
 ---
 # The roadmap

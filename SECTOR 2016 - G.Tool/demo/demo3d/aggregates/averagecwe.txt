@@ -1,0 +1,4 @@
+AVERAGECWE::
+*name = CWE Average
+*function = average
+*select = @cwe
