@@ -1,5 +1,4 @@
 @uri: 10.0.0.17
-@cvss: 6
 @type: Infrastructure
 @categorization: Patch
 @reported: 12/21/15

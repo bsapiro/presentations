@@ -253,12 +253,10 @@ demonstrate attacktree plugin
 
 ---
 # Observations along the way
-* Modern software development is complex (regression testing, build pipelines, deployment packaging etc...)
-* Greater empathy for developers
-* MVP is king
-* Should have started way earlier
-* Incremental changes are imperative
-* MOAR Testing
+* Modern software development is complex  = Greater empathy for developers
+* MVP is king (Should have started way earlier)
+* MOAR Testing (test every change and retest earlier changes)
+* Debugging code is HARD (but tools help)!!! **Incremental changes are imperative** 
 
 ---
 <center>
