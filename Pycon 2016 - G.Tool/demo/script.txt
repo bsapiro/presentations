@@ -1,0 +1,39 @@
+demo1
+-----
+gtool create demo1
+gtool process --scheme 1 --output demo1.xlsx .
+gtool process --scheme 2 .
+remove a risk value
+gtool process --scheme 2 .
+show git
+
+copy demo folder
+change output *output = @Ref || @Description || @Risk || @Impact || @Likelihood || @Remediation || @RemediationStatus
+add output.header = Ref || Description ||  Risk || Impact || Likelihood || Remediation || Remediation Status
+gtool process --scheme 2 .
+change Likelihood and Impact to Choice (choices = [H, M, L]) 
+gtool process --scheme 2 .
+fix data 
+gtool process --scheme 2 .
+add !ImpactEnum:: Enum(input = '@Impact', mapping = 'l = 1, m = 2, h = 3')
+add !LikelihoodEnum:: Enum(input = '@Likelihood', mapping = 'l = 1, m = 2, h = 3')
+gtool process --scheme 2 .
+add !RiskCalc:: Math('!ImpactEnum + !LikelihoodEnum')
+switch @Risk for !RiskCalc in *output 
+gtool process --scheme 2 .
+add !RiskEnum:: Enum(input = '!RiskCalc', mapping = '1 = L, 2 = L, 3 = M, 4 = M, 6 = H, 9 = H')
+switch !RiskCalc to !RiskEnum in *output 
+
+demo2
+-----
+
+Open graphviz
+run a tree on data structure
+
+demo3
+-----
+
+show demo3 (show off _.txt file)
+show demo3b
+show demo3c (vuln child object)
+show demo3d (aggreagate and multiple outputs)
